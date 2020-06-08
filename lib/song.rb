@@ -16,7 +16,8 @@ class Song
     @artist
   end
   
-  def genre
+  def genre= (genre)
+    
 end
 
 
