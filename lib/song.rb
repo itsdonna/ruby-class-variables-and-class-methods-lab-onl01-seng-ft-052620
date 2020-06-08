@@ -1,7 +1,17 @@
 require 'pry'
 
 class Song
+  
   def initialize(name, artist, genre)
+    @name = name
+    @artist = name 
+  end
+  def name
+    @name
+  end
+  def artist 
+    @artist
+  end
   
 end
 end
